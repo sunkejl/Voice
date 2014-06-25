@@ -21,7 +21,7 @@ class ReptileController extends AbstractActionController
     public function indexAction()
     {
 
-        $content = file_get_contents('http://voice.hupu.com/nba/nba');
+        $content = file_get_contents('http://');
 
 
         $content = mb_convert_encoding($content, 'HTML-ENTITIES', 'utf-8');
